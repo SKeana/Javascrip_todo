@@ -8,6 +8,6 @@ document.getElementById('registerForm').addEventListener("submit", function(even
         username: username,
         password: password
     };
-    localStorage.setItem(username, JSON,stringify(user));
-    window.Location.hrft = "login.html";
+    localStorage.setItem(username, JSON.stringify(user));
+    window.location.href = "login.html";
 });
