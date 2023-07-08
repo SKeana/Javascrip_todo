@@ -3,17 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Todo List</title>
 </head>
 <body>
     <header>To do list</header>
-    <p>The idea for this is to show you 5 thinng you need to do then no more you have to fininsh them befor you can put more</p>
+    <div id="userInfoContainer"></div>
+    <p>The idea for this is to show you 5 things you need to do, and then no more. You have to finish them before you can add more.</p>
     <div id="todoContainer"> 
         <input type="text" id="taskInput" placeholder="Enter a task">
-        <button id="addButton"> Add Task</button>
+        <button id="addButton">Add Task</button>
         <ul id="taskList"></ul>
-    <div\>
-
-    <script src="todolist.js"></script>
+    </div>
+    <div id="userInfoContainer">
+        Logged in as: <span id="usernameDisplay"></span>
+        <button id="logoutButton">Logout</button>
+    </div>
+    <script src="todo.js"></script>
 </body>
 </html>
